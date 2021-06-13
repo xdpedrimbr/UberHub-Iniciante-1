@@ -1,0 +1,105 @@
+Exercicio 1001:
+
+int main() {
+ 
+    int a;
+    int b;
+    int x;
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    x = a + b;
+
+    printf("X = %d\n", x);
+ 
+    return 0;
+}
+
+
+Exercicio 1002:
+
+int main() {
+ 
+    double raio;
+    double n;
+    double area;
+
+    n = 3.14159;
+
+    scanf("%lf", &raio);
+
+    area = n*raio*raio;
+
+    printf("A=%.4lf\n", area);
+ 
+    return 0;
+}
+
+Exercicio 1003:
+
+int main() {
+ 
+    int A;
+    int B;
+    int soma;
+    
+    scanf("%d", &A);
+    scanf("%d", &B);
+    
+    soma = A + B;
+    
+    printf("SOMA = %d\n", soma);
+ 
+    return 0;
+}
+
+Exercicio 1005:
+
+int main() {
+    double a;
+    double b;
+    double media;
+
+    scanf("%lf", &a);
+    scanf("%lf", &b);
+
+    media = ((a * 3.5) + (b * 7.5)) / 11;
+
+    printf("MEDIA = %.5lf\n", media);
+    
+ 
+    return 0;
+}
+
+Exercicio 1010:
+
+int main() {
+ 
+    int codigo1;
+    scanf("%d", &codigo1);
+    
+    int npecas1;
+    scanf("%d", &npecas1);
+    
+    float preco1;
+    scanf("%f", &preco1);
+    
+    int codigo2;
+    scanf("%d", &codigo2);
+    
+    int npecas2;
+    scanf("%d", &npecas2);
+    
+    float preco2;
+    scanf("%f", &preco2);
+    
+    float ptotal1 = preco1 * npecas1;
+    float ptotal2 = preco2 * npecas2;
+     
+    float total = ptotal1 + ptotal2;
+    
+    printf("VALOR A PAGAR: R$ %.2f\n", total);
+ 
+    return 0;
+}
