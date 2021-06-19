@@ -1,0 +1,197 @@
+Exercicio 1043:
+int main() {
+ 
+    float a;
+    float b;
+    float c;
+
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+
+    if(a + b > c && b + c > a && c + a > b){
+       float perimetro;
+       perimetro = a + b + c;
+       printf("Perimetro = %.1f\n", perimetro);
+    }else{
+        float area;
+        area = ((a + b) * c) / 2;
+        printf("Area = %.1f\n", area);
+    }
+ 
+    return 0;
+}
+
+
+Exercicio 1041:
+int main() {
+ 
+    float x;
+    float y;
+
+    scanf("%f", &x);
+    scanf("%f", &y);
+
+    if(x == 0 && y == 0)
+        printf("Origem\n");
+    else if(x == 0)
+        printf("Eixo Y\n");
+    else if(y == 0)
+        printf("Eixo X\n");
+    else if(x > 0 && y > 0)
+        printf("Q1\n");
+    else if(x < 0 && y > 0)
+        printf("Q2\n");
+    else if(x < 0 && y < 0)
+        printf("Q3\n");
+    else if(x > 0 && y < 0)
+        printf("Q4\n");
+
+    return 0;
+}
+
+Exercicio 1037:
+int main() {
+ 
+    float n;
+
+    scanf("%f", &n);
+
+    if(n >= 0 && n <= 25){
+        printf("Intervalo [0,25]\n");
+    }else{
+        if(n > 25 && n <= 50){
+            printf("Intervalo (25,50]\n");
+        }else{
+            if(n > 50 && n <= 75){
+                printf("Intervalo (50,75]\n");
+            }else{
+                if(n > 75 && n <= 100){
+                    printf("Intervalo (75,100]\n");
+                }else{
+                    printf("Fora de intervalo\n");
+                }
+            }
+        }
+    }
+ 
+    return 0;
+}
+
+
+Exercicio 1038:
+int main() {
+ 
+   int quantidade;
+    int codigo;
+
+    scanf("%d", &codigo);
+    scanf("%d", &quantidade);
+
+    float preco;
+
+    if(codigo == 1){
+        preco = quantidade * 4.00;
+        printf("Total: R$ %.2f\n", preco);
+    }else{
+        if(codigo == 2){
+            preco = quantidade * 4.50;
+            printf("Total: R$ %.2f\n", preco);
+        }else{
+            if(codigo == 3){
+                preco = quantidade * 5.00;
+                printf("Total: R$ %.2f\n", preco);
+            }else{
+                if(codigo == 4){
+                    preco = quantidade * 2.00;
+                    printf("Total: R$ %.2f\n", preco);
+                }else{
+                    preco = quantidade * 1.50;
+                    printf("Total: R$ %.2f\n", preco);
+                }
+            }
+        }
+    }
+
+ 
+    return 0;
+}
+
+
+Exercicio 1037:
+int main() {
+ 
+    float n;
+    
+    scanf("%f", &n);
+    
+    if(n >= 0 && n <= 25){
+        printf("Intervalo [0,25]\n");
+    }else{
+        if(n > 25 && n <= 50){
+            printf("Intervalo (25,50]\n");
+        }else{
+            if(n > 50 && n <= 75){
+                printf("Intervalo (50,75]\n");
+            }else{
+                if(n > 75 && n <= 100){
+                    printf("Intervalo (75,100]\n");
+                }else{
+                    printf("Fora de intervalo\n");
+                }
+            }
+        }
+    }
+ 
+    return 0;
+}
+
+
+Exercicio 1052:
+int main() {
+
+    int mes;
+    scanf("%d", &mes);
+
+    if(mes == 1)
+        printf("January\n");
+
+    else if(mes == 2)
+        printf("February\n");
+
+    else if(mes == 3)
+        printf("March\n");
+
+    else if(mes == 4)
+        printf("April\n");
+
+    else if(mes == 5)
+        printf("May\n");
+
+    else if(mes == 6)
+        printf("June\n");
+
+    else if(mes == 7)
+        printf("July\n");
+
+    else if(mes == 8)
+        printf("August\n");
+
+    else if(mes == 9)
+        printf("September\n");
+
+    else if(mes == 10)
+        printf("October\n");
+
+    else if(mes == 11)
+        printf("November\n");
+
+    else if(mes == 12)
+        printf("December\n");
+
+
+
+    return 0;
+}
+
+
