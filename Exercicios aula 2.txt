@@ -118,34 +118,34 @@ int main() {
 }
 
 
-Exercicio 1037:
+Exercicio 1050:
 int main() {
  
-    float n;
-    
-    scanf("%f", &n);
-    
-    if(n >= 0 && n <= 25){
-        printf("Intervalo [0,25]\n");
-    }else{
-        if(n > 25 && n <= 50){
-            printf("Intervalo (25,50]\n");
-        }else{
-            if(n > 50 && n <= 75){
-                printf("Intervalo (50,75]\n");
-            }else{
-                if(n > 75 && n <= 100){
-                    printf("Intervalo (75,100]\n");
-                }else{
-                    printf("Fora de intervalo\n");
-                }
-            }
-        }
-    }
+    int ddd;
+
+    scanf("%d", &ddd);
+
+    if(ddd == 61)
+        printf("Brasilia\n");
+    else if(ddd == 71)
+        printf("Salvador\n");
+    else if(ddd == 11)
+        printf("Sao Paulo\n");
+    else if(ddd == 21)
+        printf("Rio de Janeiro\n");
+    else if(ddd == 32)
+        printf("Juiz de Fora\n");
+    else if(ddd == 19)
+        printf("Campinas\n");
+    else if(ddd == 27)
+        printf("Vitoria\n");
+    else if(ddd == 31)
+        printf("Belo Horizonte\n");
+    else
+        printf("DDD nao cadastrado\n");
  
     return 0;
 }
-
 
 Exercicio 1052:
 int main() {
