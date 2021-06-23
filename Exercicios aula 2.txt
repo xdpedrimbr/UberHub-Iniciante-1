@@ -233,3 +233,41 @@ int main() {
  
     return 0;
 }
+
+Exercicio 1042:
+int main() {
+ 
+    int a, b, c;
+    int aux1, aux2, aux3;
+    int numero;
+
+    scanf("%d %d %d", &a, &b, &c);
+    
+    aux1 = a;
+    aux2 = b;
+    aux3 = c;
+    
+    if(aux1 < aux2){
+        numero = aux1;
+        aux1 = aux2;
+        aux2 = numero;
+    }
+    
+    if(aux2 < aux3){
+        numero = aux2;
+        aux2 = aux3;
+        aux3 = numero;
+    }
+    
+    if(aux1 < aux2){
+        numero = aux1;
+        aux1 = aux2;
+        aux2 = numero;
+    }
+    
+    printf("%d\n%d\n%d\n\n%d\n%d\n%d\n", aux3, aux2, aux1, a, b, c);
+ 
+    return 0;
+}
+
+
