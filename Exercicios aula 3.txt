@@ -1,0 +1,119 @@
+1059:
+int main() {
+ 
+    for(int i = 1; i < 101; i++){
+        if(i % 2 == 0){
+            printf("%d\n", i);
+        }
+    }
+ 
+    return 0;
+}
+
+
+1060:
+int main() {
+ 
+    int i = 0;
+    float num;
+    int qtd = 0;
+
+    while(i < 6){
+        scanf("%f", &num);
+        if(num != 0){
+            i++;
+        }
+        if(num > 0){
+            qtd++;
+        }
+    }
+
+    printf("%d valores positivos\n", qtd);
+ 
+    return 0;
+}
+
+
+1078:
+int main() {
+ 
+    int valor;
+    int conta;
+    scanf("%d", &valor);
+
+    for(int i = 1; i < 11; i++){
+        conta = valor * i;
+        printf("%d x %d = %d\n", i, valor, conta);
+    }
+ 
+    return 0;
+}
+
+
+1132:
+int main() {
+ 
+    int x, y;
+    int soma = 0;
+
+    scanf("%d %d", &x, &y);
+
+    if(x < y){
+        for(int i = x; i <= y; i++){
+            if(i % 13 != 0){
+                soma += i;
+            }
+        }
+    }else{
+        for(int i = y; i <= x; i++){
+            if(i % 13 != 0){
+                soma += i;
+            }
+        }
+    }
+
+    printf("%d\n", soma);
+ 
+    return 0;
+}
+
+
+1133:
+int main() {
+ 
+    int x, y;
+    scanf("%d %d", &x, &y);
+    
+    if(x < y){
+        for(int i = x + 1; i < y; i++){
+            if(i % 5 == 2 || i % 5 ==3){
+                printf("%d\n", i);
+            }
+        }
+    }else{
+        for(int i = y + 1; i < x; i++){
+            if(i % 5 == 2 || i % 5 == 3){
+                printf("%d\n", i);
+            }
+        }
+    }
+ 
+    return 0;
+}
+
+
+1564:
+int main() {
+ int n;
+
+    while(scanf("%d", &n) != EOF){
+        if(n == 0){
+            printf("vai ter copa!\n");
+        }else{
+            printf("vai ter duas!\n");
+        }
+    }
+    
+ 
+    return 0;
+}
