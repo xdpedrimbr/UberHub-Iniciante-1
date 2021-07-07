@@ -79,22 +79,32 @@ int main() {
 
 int main() {
  
-    int x, y, count = 0;
+    
+ int m, n;
 
-    scanf("%d %d", &x, &y);
-
-    if((1 < x < 20) && (x < y < 100000)){
-        for(int i = 1; i <= y; i++){
-            count++;
-            if(count == x){
-                printf("%d\n", i);
-                count = 0;
-            }else{
-                printf("%d ", i);
+    while(1){
+        int sum = 0;
+        scanf("%d %d", &m, &n);
+        if(m <= 0 || n <= 0)
+            break;
+        else{
+            if(m < n){
+                for(int i = m; i <= n; i++){
+                    printf("%d ", i);
+                    sum += i;
+                }
+                printf("Sum=%d\n", sum);
+            }else if(n < m){
+                for(int i = n; i <= m; i++){
+                    printf("%d ", i);
+                    sum += i;
+                }
+                printf("Sum=%d\n", sum);
             }
         }
+
+
     }
- 
     return 0;
 }
 
