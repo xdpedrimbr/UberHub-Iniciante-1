@@ -1,0 +1,85 @@
+int main()
+{
+//    int a, b;
+//    int opcao;
+//
+//    printf("digite os numeros a e b: ");
+//    scanf("%d", &a);
+//    scanf("%d", &b);
+//
+//    printf("\ndigite 1 para soma");
+//    printf("\ndigite 2 para subtracao");
+//    printf("\ndigite 3 para multiplicacao");
+//    printf("\ndigite 4 para divisao");
+//    scanf("%d", &opcao);
+//
+//    if(opcao == 1){
+//        int soma;
+//        soma = a + b;
+//        printf("a soma eh: %d", soma);
+//    }
+//
+//    if(opcao == 2){
+//        int sub;
+//        sub = a - b;
+//        printf("a subtracao eh: %d", sub);
+//    }
+//
+//    if(opcao == 3){
+//        int multi;
+//        multi = a * b;
+//        printf("a multiplicacao eh: %d", multi);
+//    }
+//
+//    if(opcao == 4){
+//        int div;
+//        div = a / b;
+//        printf("a divisao eh: %d", div);
+//    }
+
+// EXERCICIO MARATONA
+//    int a, b;
+//    int menor, maior;
+//
+//    scanf("%d", &a);
+//    scanf("%d", &b);
+//
+//    if(a < b){
+//        menor = a;
+//        maior = b;
+//    }else{
+//        if(a == b){
+//            printf("Numeros iguais\n");
+//        }
+//    }
+//
+//    printf("O maior numero e %d\n", maior);
+//    printf("O menor numero e %d\n", menor);
+
+// EXERCICIO MARATONA
+//    int ano;
+//
+//    scanf("%d", &ano);
+//
+//    if(ano <= 1979){
+//        printf("Geracao X!!!\n");
+//    }else{
+//        if(ano >= 1980 && ano <= 1995){
+//            printf("Geracao Millennials. Muito cringe!!!\n");
+//        }else{
+//            if(ano >= 1996 && ano <= 2010){
+//                printf("Geracao Z!!!\n");
+//            }else{
+//                if(ano >= 2011){
+//                    printf("Geracao Alpha!!!\n");
+//                }
+//            }
+//        }
+//    }
+
+
+
+
+
+    return 0;
+}
